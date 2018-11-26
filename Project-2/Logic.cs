@@ -6,7 +6,7 @@ namespace Project2
         double posX;
         double posY;
         double scale;
-        uint max;
+        uint max = 100;
 
 
         public Logic()
