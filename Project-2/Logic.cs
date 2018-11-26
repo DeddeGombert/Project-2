@@ -14,13 +14,15 @@ namespace Project_2
 
         }
 
-        public uint GetF(double x, double y){
+        public uint GetF(double x, double y)
+        {
             double a = 0;
             double b = 0;
 
             uint f;
 
-            for (f = 1; f <= max; f++){
+            for (f = 1; f <= max; f++)
+            {
                 double distSquared = a * a + b * b;
 
                 if (distSquared > 4) // no need to take square root on distSquared here since (Math.sqrt(distSquared) > 2) is equal to (distSquared > 4)
